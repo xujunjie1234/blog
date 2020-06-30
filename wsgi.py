@@ -1,4 +1,4 @@
-from blog import create_app
+# from myblog import create_app
 
 from dotenv import load_dotenv
 import os
