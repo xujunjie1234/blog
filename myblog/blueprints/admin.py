@@ -234,7 +234,8 @@ def upload_image():
     url = os.path.join(basedir,"upload\img")
     image.save(os.path.join(url,image.filename))
 
-    url = 'http://127.0.0.1:5000/uploads/' + image.filename
+    # url = 'http://127.0.0.1:5000/uploads/' + image.filename
+    url = 'http://134.175.155.79/uploads/' + image.filename
     return jsonify(type="success",url=url)
 
 
