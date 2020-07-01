@@ -33,7 +33,11 @@ class BaseConfig:
 
 
 class DevelopmentConfig(BaseConfig):
+<<<<<<< HEAD
     #SQLALCHEMY_DATABASE_URI = "mysql://root:Xu243157?@127.0.0.1:3306/blog"
+=======
+    # SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1:3306/blog"
+>>>>>>> 81a697f5407e67c391ca57ac677892e6f11f1b53
     SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URI')
 
 
