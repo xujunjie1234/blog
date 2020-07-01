@@ -12,7 +12,9 @@ pymysql = "*"
 flask-login = "*"
 flask-migrate = "*"
 gunicorn = "*"
+flask-cors = "*"
+python-dotenv = "*"
+faker = "*"
 
 [requires]
 python_version = "3.7"
-

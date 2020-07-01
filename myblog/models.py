@@ -13,7 +13,7 @@ class Admin(db.Model, UserMixin):
     blog_title = db.Column(db.String(100))
     body = db.Column(db.Text)
     html = db.Column(db.Text)
-    timestamp = db.Column(db.DateTime,default=datetime.timestamp(datetime.now()),index=True)
+    timestamp = db.Column(db.DateTime,default=datetime.now(),index=True)
     
 
     def set_password(self, password):
